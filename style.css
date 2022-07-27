@@ -1,0 +1,90 @@
+.arapu{
+    color: rgb(250, 128, 76);
+}
+.arapu-2{
+    font-size: 3rem;
+}
+.naav-head{
+    background-color: rgb(255, 249, 244);}
+
+.hehe{
+    width: 50px;
+}
+
+.grid-container > div{
+    padding: 20px 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* .item1{ */
+/* grid-column: 1/2; */
+/* } */
+/* .item2{ */
+/* grid-column: 2/3; */
+/* grid-row: 1/4; */
+/* } */
+/* .item3{ */
+/* grid-column: 1/2; */
+/* } */
+/* .item4{ */
+/* grid-column: ; */
+/* } */
+/* .item1 img{ */
+    /* width: 70px; */
+ /* height: 70px; */
+/*     */
+/* } */
+/* .item2 img{ */
+    /* width: 100%; */
+/* } */
+/* .item3 img{ */
+    /* width: 70px; */
+ /* height: 70px; */
+/*     */
+/* } */
+/* .item4 img{ */
+    /* width: 70px; */
+ /* height: 70px; */
+/*     */
+/* } */
+
+
+.card-1 img{
+    width: 70px;
+    height: 70px;
+}
+.card-1{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #eee;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.imge{
+    width: 600px;
+}
+@media screen and (max-width:576px) {
+    .card-1{
+        width: 100%;
+    }
+    .imge{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .shop-sec{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+.btn-ap{
+    background-color: #7D9D9C;
+}
+.container-modal{
+    display: flex;
+    justify-content: space-between;
+}
